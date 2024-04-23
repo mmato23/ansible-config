@@ -4,16 +4,16 @@
   become: true
   tasks:
 
-  - name: Update repository index
-    apt: 
-      update_cache: yes
-
-  - name: Install apache2 package
+  - name: Update Repository Index
     apt:
-      name: apache2
+      update_cache: yes  
+
+  - name: Remove nginx package
+    apt:
+      name: nginx
       state: absent
 
-  - name: Add php support for apache
+  - name: Add php support for Apache
     apt:
       name: libapache2-mod-php
       state: absent

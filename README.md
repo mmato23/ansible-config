@@ -1,4 +1,3 @@
-# ansible-config
-Ansible Tutorial for Ingryd DevOps (Jan 24 Batch)
+# ansible24
 
-This is my Ansible Repo
+This is the first entry into my README file (22 April 2024)
